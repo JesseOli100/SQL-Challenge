@@ -63,6 +63,18 @@ Import each CSV file into its corresponding SQL table.
 * List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name (4 points)
 * List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name) (4 points)
 
+# Notes
+
+What is the code supposed to be doing? What is the purpose of this exercise? 
+
+The main purpose of this project is to show that we can create tables and run queries in SQL. For the table section, we had to maintain things in proper form and list out all of the primary keys, secondary keys, and foreign keys while also making sure that the rows or columns in the tables have their proper NULL values (if needed). The queries were easier, as a query is either correct or incorrect, and if a query is incorrect it usually results in an error. 
+
+Syntax Learned:
+
+•	table_name AS e (or any other random letter) – makes it so that you can call the entire different sections of the table by only typing e.part_of_table and it will output the specific part of the table you are looking for 
+
+•	EXTRACT(YEAR FROM table_column::DATE) = 1986; (Particular_Year)
+
 - - -
 
 This is submitted by Jesse Olivarez for the University of Utah: Data Analytics Bootcamp
